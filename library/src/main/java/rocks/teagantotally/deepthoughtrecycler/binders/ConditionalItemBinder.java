@@ -24,5 +24,5 @@ public abstract class ConditionalItemBinder<ItemType>
      * @param item The item to check for binding
      * @return Whether this binder can handle this item
      */
-    abstract boolean canBind(ItemType item);
+    public abstract boolean canBind(ItemType item);
 }
